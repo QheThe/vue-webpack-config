@@ -1,9 +1,13 @@
-import Vue from 'vue'
+import Vue from '../../common/common'
+import './index.less'
 
-const vm = new Vue({
+
+const vm = Vue.extend({
+    data() {
+        return {
+            test: 'asdasdasd'
+        }
+    }
 })
 
-vm.$mount('#app')
-
-vm.extend({
-})
+new vm().$mount('#app')

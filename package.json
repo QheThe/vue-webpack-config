@@ -10,9 +10,13 @@
     "createRoutes": "node build/createRoutes.js"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
     "glob": "^7.1.4",
     "html-webpack-plugin": "^3.2.0",
+    "less-loader": "^5.0.0",
     "mini-css-extract-plugin": "^0.8.0",
     "vue-loader": "^15.7.1",
     "vue-template-compiler": "^2.6.10",
@@ -22,6 +26,9 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "flexible.js": "^2.0.19",
+    "less": "^3.10.3",
+    "normalize.css": "^8.0.1",
     "vue": "^2.6.10"
   }
 }

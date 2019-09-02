@@ -14,7 +14,7 @@ module.exports = smart(base, {
     devServer: {
         port: 8080,
         progress: true,
-        open: true,
+        open: false,
         // contentBase: path.resolve(__dirname, 'dist')
         // 配置一个反向代理
         proxy: dev.proxy
