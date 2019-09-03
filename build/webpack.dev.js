@@ -12,6 +12,7 @@ module.exports = smart(base, {
         publicPath: dev.publicPath
     },
     devServer: {
+        host: '0.0.0.0',
         port: 8080,
         progress: true,
         open: false,
